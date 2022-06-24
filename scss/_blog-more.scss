@@ -1,0 +1,110 @@
+.blog-more_bg {
+    background-image: url(/images/blog/blog2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-more_color {
+    color: var(--web-color);
+    & a {
+        color: var(--web-color);
+    }
+    & div {
+        background-color: var(--web-color);
+    }
+    & a:last-child{
+        color: var(--web-color);
+    }
+}
+
+.blog-more_arrow{
+    justify-content: flex-end;
+}
+
+
+
+.blog-information {
+    padding: 100px 0 150px;
+}
+.blog-information_body{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+.blog-information_links {
+}
+.blog-information_links__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--color-subtitle);
+}
+.blog-information_links__socials {
+    display: flex;
+    column-gap: 10px;
+    & a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 1px solid var(--color-bg-cooperate);
+        transition: all .3s;
+        & img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+    & a:hover {
+        border: 1px solid var( --color-phone_btn);
+    }
+}
+.blog-information_content {
+}
+.blog-information_content__title {
+    margin-bottom: 20px;
+}
+.blog-information_content__title2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: var(--color-title);
+}
+.blog-information_content__subtitle {
+    color: var(--color-title);
+    & span {
+        display: block;
+    }
+    & span:not(:last-child){
+        margin-bottom: 15px;
+    }
+    & img {
+        width: 100%;
+    }
+}
+.blog-information_content__subtitle:not(:last-child) {
+    margin-bottom: 50px;
+}
+.blog-information_content__list{
+    margin-bottom: 50px;
+}
+.blog-information_numberlist{
+    & li {
+        color: var(--color-phone_btn);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        margin-left: 16px;
+    }
+    & li span {
+        display: block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: var(--color-title);
+        margin-left: 10px;
+    }
+}

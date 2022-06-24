@@ -1,0 +1,54 @@
+
+.avtohim-body{
+    display: flex;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.avtohim-img{
+    & img {
+        position: absolute;
+        z-index: 9;
+        top: 23px;
+        right: 0;
+    }
+}
+.avtohim-subtitle{
+    & span{
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
+
+
+.avtohim-kinds {
+    margin-bottom: 150px;
+}
+.avtohim-kinds_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.avtohim-kinds_subtitle {
+    max-width: 840px;
+    margin-bottom: 50px;
+}
+.avtohim-kinds_lists {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    column-gap: 56px;
+    & .avtohim-kinds_list{
+        display: grid;
+        row-gap: 20px;
+    }
+    & ul {
+        list-style-position: outside;
+    }
+}
+.avtohim-kinds_item {
+    background: url("/images/products_avtohim/line.svg") no-repeat left center;
+    padding-left: 34px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--color-title);
+}

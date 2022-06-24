@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIANCE: О компании</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="./scss/css/style.css">
+</head>
+
+<body>
+    <div class="container-main">
+        <!-- mobile nav -->
+        <div class="mobile-menu">
+            <div class="mob-nav">
+                <ul class="mob-list">
+                    <li class="mob-item"><a class="mob-link after-list" href="./about.html">О компании</a></li>
+                    <li class="mob-item"><a class="mob-link after-list" href="./contract_manufaсturing.html">Контрактное
+                            производство</a>
+                        <ul class="mob-sublist">
+                            <li class="mob-subitem"><a class="mob-link after-list"
+                                    href="./product_avtohim.html">Автомобильная
+                                    химия</a></li>
+                            <li class="mob-subitem"><a class="mob-link after-list" href="./404.html">Бытовая химия</a>
+                            </li>
+                            <li class="mob-subitem"><a class="mob-link after-list" href="./404.html">Дезинфицирующие
+                                    средства</a></li>
+                            <li class="mob-subitem"><a class="mob-link after-list" href="./404.html">Пищевые аэрозоли</a>
+                            </li>
+                            <li class="mob-subitem"><a class="mob-link after-list" href="./404.html">Косметическая
+                                    продукция</a></li>
+                            <li class="mob-subitem"><a class="mob-link after-list" href="./404.html">Краски
+                                    аэрозольные</a></li>
+                        </ul>
+                    </li>
+                    <li class="mob-item"><a class="mob-link after-list" href="./own_product.html">Собственные
+                            марки</a>
+                        <ul class="mob-sublist">
+                            <li class="mob-subitem"><a class="mob-link after-list"
+                                    href="./avtohim_ag-tech.html">Автохимия
+                                    AG-Tech</a></li>
+                            <li class="mob-subitem"><a class="mob-link after-list" href="./404.html">Автохимия AP</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mob-item"><a class="mob-link after-list" href="./blog.html">Новости</a></li>
+                    <li class="mob-item"><a class="mob-link after-list" href="./contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="mob-footer">
+                <div class="mob-tel"><a href="tel:+74996861014">+7 (499) 686-10-14</a></div>
+                <div class="mob-address">
+                    <a
+                        href="https://yandex.ru/map-widget/v1/?um=constructor%3A5efaed4ad6c6165ef75b130ec9a281021183ad8f920ac52ee1c41b7b4229cb6a&amp;source=constructor">
+                        <img src="./images/footer/mark.svg" alt="mark"> г. Мосвка, Холодильный пер. 4к1с8</a>
+                    <a href="mailto:a.dragunov@tdaliance.ru"><img src="./images/footer/mail.svg"
+                            alt="mail">a.dragunov@tdaliance.ru</a>
+                </div>
+                <div class="mob-socials">
+                    <a href="https://vk.com/" target="_blank"><img src="./images/footer/vk.svg" alt="vk"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./images/footer/inst.svg"
+                            alt="inst"></a>
+                </div>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <header class="main-bg__header zeroingIndents">
+            <div class="burger-wrapper">
+                <div id="nav-icon2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="bg-header__logo">
+                <a href="./index.html"><img src="./images/about/logo.svg" alt="ALIANCE"></a>
+            </div>
+            <nav class="bg-header__nav">
+                <ul class="bg-header__list">
+                    <li class="bg-header__item"><a href="./about.html" class="bg-header__link after-list about-style">О
+                            компании</a></li>
+                    <li id="contract-menu" class="bg-header__item">
+                        <a href="#" class="bg-header__link after-list about-style">Контрактное производство</a>
+                        <div class="contract-menu hidden">
+                            <ul>
+                                <li><a class="after-list" href="./product_avtohim.html">Автомобильная химия</a></li>
+                                <li><a class="after-list" href="./404.html">Бытовая химия</a></li>
+                                <li><a class="after-list" href="./404.html">Дезинфицирующие средства</a></li>
+                                <li><a class="after-list" href="./404.html">Пищевые аэрозоли</a></li>
+                                <li><a class="after-list" href="./404.html">Косметическая продукция</a></li>
+                                <li><a class="after-list" href="./404.html">Краски аэрозольные</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="bg-header__item"><a href="./own_product.html"
+                            class="bg-header__link after-list about-style">Собственные
+                            торговые марки</a></li>
+                    <li class="bg-header__item"><a href="./blog.html"
+                            class="bg-header__link after-list about-style">Новости</a>
+                    </li>
+                    <li class="bg-header__item"><a href="./contacts.html"
+                            class="bg-header__link after-list about-style">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="bg-header__phone">
+                <div class="bg-header__phone_content about-style"><a href="tel:+74996861014"><img
+                            src="./images/header/phone.svg" alt="phone"> +7 (499) 686-10-14</a></div>
+            </div>
+            <button class="bg-header__phone_btn bg-header__phone_btn-close">Получить консультацию</button>
+            <button class="bg-header__phone_btnMob"><svg width="16" height="16" viewBox="0 0 16 17" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M15.9688 12.0822L15.2188 15.2384C15.125 15.7072 14.75 16.0197 14.2812 16.0197C6.40625 15.9884 0 9.58218 0 1.70718C0 1.23843 0.28125 0.86343 0.75 0.76968L3.90625 0.0196803C4.34375 -0.0740697 4.8125 0.17593 5 0.58218L6.46875 3.98843C6.625 4.39468 6.53125 4.86343 6.1875 5.11343L4.5 6.48843C5.5625 8.64468 7.3125 10.3947 9.5 11.4572L10.875 9.76968C11.125 9.45718 11.5938 9.33218 12 9.48843L15.4062 10.9572C15.8125 11.1759 16.0625 11.6447 15.9688 12.0822Z"
+                        fill="#5C8EE6" />
+                </svg>
+            </button>
+        </header>
+        <main>
+            <section class="about-section">
+                <div class="container">
+                    <div class="line"></div>
+                    <div class="about-title"> о компании</div>
+                    <div class="about-nav">
+                        <a class="after-list" href="./index.html">Главная</a>
+                        <div class="line_gray"></div>
+                        <a class="after-list" href="./about.html">О компании</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-experts">
+                <div class="container">
+                    <div class="about-experts_body">
+                        <div class="about-experts_img">
+                            <img src="./images/about/Group.png" alt="Group">
+                        </div>
+                        <div class="about-experts_content">
+                            <div class="line"></div>
+                            <div class="about-experts_title article-title">мы - эксперты в области производства химии
+                            </div>
+                            <div class="about-experts_subtitle article-card_subtitle">Разнообразный и богатый опыт
+                                говорит
+                                нам, что перспективное планирование однозначно фиксирует необходимость поставленных
+                                обществом задач! Есть над чем задуматься: ключевые особенности структуры проекта могут
+                                быть
+                                объединены в целые кластеры себе подобных. Интерактивные прототипы, которые представляют
+                                собой яркий пример континентально-европейского типа политической культуры, будут описаны
+                                максимально подробно. Значимость этих проблем настолько очевидна, что перспективное
+                                планирование играет важную роль в формировании системы массового участия.</div>
+                        </div>
+                    </div>
+                    <div class="slide-main_bg swiper-container">
+                        <div class="main-bg__cards about-cards swiper-wrapper">
+                            <div class="main-bg__card swiper-slide">
+                                <img src="./images/header/card1.svg" alt="svg">
+                                <div class="main-bg__card_content about-cards_color">Непрерывная работа c 2017 года
+                                </div>
+                            </div>
+                            <div class="main-bg__card swiper-slide">
+                                <img src="./images/header/card2.svg" alt="svg">
+                                <div class="main-bg__card_content about-cards_color">Вся продукция сертифицирована</div>
+                            </div>
+                            <div class="main-bg__card swiper-slide">
+                                <img src="./images/header/card3.svg" alt="svg">
+                                <div class="main-bg__card_content about-cards_color">Контроль качества на всех этапах
+                                </div>
+                            </div>
+                            <div class="main-bg__card swiper-slide">
+                                <img src="./images/header/card4.svg" alt="svg">
+                                <div class="main-bg__card_content about-cards_color">Возможны поставки по всей России
+                                </div>
+                            </div>
+                            <div class="main-bg__card swiper-slide">
+                                <img src="./images/header/card5.svg" alt="svg">
+                                <div class="main-bg__card_content about-cards_color">Оперативное производство</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-bg-arrow about-arrow">
+                        <div class="main-bg-arrow_left">
+                            <svg width="36" height="24" viewBox="0 0 36 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.1616 4.68629L10.8687 5.3934L4.41405 11.848L33 11.8479L32.9997 12.8482L4.42381 12.848L10.8687 19.2929L10.1616 20L3.00959 12.848H2.99993V12.8383L2.50473 12.3431L10.1616 4.68629Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+                        <div class="main-bg-arrow_right">
+                            <svg width="36" height="24" viewBox="0 0 36 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M25.8384 19.3137L25.1313 18.6066L31.5859 12.152L3 12.1521L3.00035 11.1518L31.5762 11.152L25.1313 4.70711L25.8384 4L32.9904 11.152H33.0001V11.1617L33.4953 11.6569L25.8384 19.3137Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-production">
+                <div class="container">
+                    <div class="about-production_body">
+                        <div class="about-production_content">
+                            <div class="line"></div>
+                            <div class="about-production_title article-title">Наше производство</div>
+                            <div class="about-production_img about-img_mobile">
+                                <img src="./images/about/elena-danilyuk.jpg" alt="elena-danilyuk">
+                            </div>
+                            <div class="about-production_subtitle article-card_subtitle">Предварительные выводы
+                                неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает
+                                широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но
+                                граница обучения кадров создаёт необходимость включения в производственный план целого
+                                ряда
+                                внеочередных мероприятий с учётом комплекса кластеризации усилий.<br>
+                                <span>Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи -
+                                    безусловно открывает новые горизонты для соответствующих условий активизации.
+                                    Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня
+                                    требует
+                                    анализа анализа существующих паттернов поведения.</span>
+                            </div>
+                            <div class="about-production_list">
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/car.svg" alt="car">
+                                    <div class="aerosolproducts-item_name">Автомобильная химия</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/cosmetic.svg" alt="cosmetic">
+                                    <div class="aerosolproducts-item_name">Косметическая продукция</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/brush.svg" alt="brush">
+                                    <div class="aerosolproducts-item_name">Краски аэрозольные</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/about/aerozol.svg" alt="aerozol">
+                                    <div class="aerosolproducts-item_name">Пищевые аэрозоли</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/about/home.svg" alt="home">
+                                    <div class="aerosolproducts-item_name">Бытовая химия</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/about/dis.svg" alt="dis">
+                                    <div class="aerosolproducts-item_name">Дезинфицирующие средства</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-production_img">
+                            <img src="./images/about/elena-danilyuk.jpg" alt="elena-danilyuk">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="main-attitude">
+                <div class="main-attitude_img">
+                    <img src="./images/attitude/attitude.jpg" alt="attitude">
+                </div>
+                <div class="main-attitude_content">
+                    <div class="attitude-cintainer">
+                        <div class="line"></div>
+                        <div class="attitude-title article-title">Отношение к делу и к клиентам</div>
+                        <div class="attitude-subtitle article-card_subtitle">Кстати, интерактивные прототипы описаны
+                            максимально подробно. Повседневная практика показывает, что укрепление и развитие внутренней
+                            структуры говорит о возможностях соответствующих условий активизации. Внезапно, независимые
+                            государства, которые представляют собой яркий пример континентально-европейского типа
+                            политической культуры, будут подвергнуты целой серии независимых исследований. С учётом
+                            сложившейся международной обстановки, синтетическое тестирование выявляет срочную
+                            потребность
+                            системы массового участия.<br>
+                            <span> А ещё действия представителей оппозиции, превозмогая сложившуюся непростую
+                                экономическую
+                                ситуацию, в равной степени предоставлены сами себе. Не следует, однако, забывать, что
+                                выбранный
+                                нами инновационный путь в значительной степени обусловливает важность дальнейших
+                                направлений
+                                развития.</span>
+                        </div>
+                        <div class="attitude-card__link card-link">
+                            <div class="link_line"></div>
+                            <a href="./about.html">Подробнее о компании</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-research">
+                <div class="container">
+                    <div class="line"></div>
+                    <div class="about-research_title article-title">Исследовательский центр Aliance production</div>
+                    <div class="about-research_subtitle article-card_subtitle">
+                        <span>Явные признаки победы институционализации рассмотрены исключительно в разрезе
+                            маркетинговых и
+                            финансовых предпосылок. Приятно, граждане, наблюдать, как активно развивающиеся страны
+                            третьего
+                            мира могут быть ограничены исключительно образом мышления. Лишь независимые государства
+                            набирают
+                            популярность среди определенных слоев населения, а значит, должны быть указаны как
+                            претенденты
+                            на роль ключевых факторов. Лишь акционеры крупнейших компаний могут быть призваны к
+                            ответу.</span>
+                        <span>С учётом сложившейся международной обстановки, синтетическое тестирование требует
+                            определения
+                            и уточнения анализа существующих паттернов поведения. Не следует, однако, забывать, что
+                            высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент
+                            проверки как самодостаточных, так и внешне зависимых концептуальных решений. Предварительные
+                            выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление однозначно
+                            фиксирует необходимость стандартных подходов.</span>
+                    </div>
+                </div>
+                <div class="about-research-container swiper-container">
+                    <div class="about-research_slider swiper-wrapper">
+                        <div class="about-research_slide swiper-slide">
+                            <img src="./images/about/slider/tima-miroshnichenko.jpg" alt="tima-miroshnichenko">
+                        </div>
+                        <div class="about-research_slide swiper-slide">
+                            <img src="./images/about/slider/pixabay.jpg" alt="pixabay">
+                        </div>
+                        <div class="about-research_slide swiper-slide">
+                            <img src="./images/about/slider/tima-miroshnichenko.jpg" alt="tima-miroshnichenko">
+                        </div>
+                        <div class="about-research_slide swiper-slide">
+                            <img src="./images/about/slider/pixabay.jpg" alt="pixabay">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="about-research_arrow blog-arrow">
+                        <div class="blog-arrow_left">
+                            <img src="./images/blog/arrow_left.svg" alt="arrow_left">
+                        </div>
+                        <div class="blog-arrow_right">
+                            <img src="./images/blog/arrow_right.svg" alt="arrow_right">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="main-aerosolproducts">
+                <div class="container">
+                    <div class="line"></div>
+                    <article class="aerosolproducts">
+                        <div class="aerosolproducts-content">
+                            <div class="aerosolproducts-title article-title">Производим аэрозольную продукцию для разных
+                                сфер</div>
+                            <div class="aerosolproducts-content_list">
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/him.svg" alt="him">
+                                    <div class="aerosolproducts-item_name">Химические производства</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/car.svg" alt="car">
+                                    <div class="aerosolproducts-item_name">Автомобильная косметика</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/car-cosm.svg" alt="car-cosm">
+                                    <div class="aerosolproducts-item_name">Автомойки</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/eat.svg" alt="eat">
+                                    <div class="aerosolproducts-item_name">Пищевая продукция</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/boots.svg" alt="boots">
+                                    <div class="aerosolproducts-item_name">Косметика по уходу за обувью</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/brush.svg" alt="brush">
+                                    <div class="aerosolproducts-item_name">Лаки и краски</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/bricks.svg" alt="bricks">
+                                    <div class="aerosolproducts-item_name">Строительные материалы</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/cosmetic.svg" alt="cosmetic">
+                                    <div class="aerosolproducts-item_name">Косметические средства</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/shirt.svg" alt="shirt">
+                                    <div class="aerosolproducts-item_name">Косметика по уходу за одеждой</div>
+                                </div>
+                                <div class="aerosolproducts-content_item">
+                                    <img src="./images/aerosolproducts/more.svg" alt="more">
+                                    <div class="aerosolproducts-item_name">И многих других</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aerosolproducts-products">
+                            <a href="./404.html"></a>
+                            <a href="./404.html"></a>
+                            <a href="./404.html"></a>
+                            <a href="./404.html"></a>
+                            <a href="./404.html"></a>
+                            <a href="./404.html"></a>
+                            <a href="./404.html"></a>
+                            <a href="./404.html"></a>
+                            <a class="none" href="./404.html"></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            
+            <section class="main-cooperate">
+                <div class="white-line"></div>
+                <article class="cooperate">
+                    <div class="cooperate-img">
+                        <img src="./images/cooperate/coop_img.jpg" alt="cooperate">
+                    </div>
+                    <div class="cooperate-content">
+                        <div class="cooperate-title article-title">Хотите сотрудничать?</div>
+                        <div class="cooperate-subtitle article-card_subtitle">Оставьте заявку, наш менеджер свяжется с
+                            Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных
+                            случаях!</div>
+                        <form class="cooperate-form" action="./404.html">
+                            <div class="cooperate-form_input">
+                                <input id="username" class="cooperate-input_name" type="text">
+                                <label for="username">Имя</label>
+                            </div>
+                            <div class="cooperate-form_input">
+                                <input id="usertel" class="cooperate-input_phone phone" type="tel">
+                                <label for="usertel">Номер телефона</label>
+                            </div>
+                        </form>
+                        <div class="cooperate-content_submit">
+                            <input class="btn_submit" type="submit" value="Отправить заявку">
+                            <div class="cooperate-content_shield">
+                                <img src="images/cooperate/shield.svg" alt="shield">
+                                <div class="shield_content">Обращаясь к нам вы получаете не только профессиональную
+                                    работу, но и абсолютную конфиденциальность информации!</div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-contacts">
+                    <div class="footer-contacts_logo">
+                        <a href="./index.html"><img src="./images/footer/logo.svg" alt="logo"></a>
+                    </div>
+    
+                    <div class="footer-contacts_tel">
+                        <a href="tel:+74996861014">+7 (499) 686-10-14</a>
+                    </div>
+                    <div class="footer-contacts_items">
+                        <div class="footer-contacts_address">
+                            <a
+                                href="https://yandex.ru/map-widget/v1/?um=constructor%3A5efaed4ad6c6165ef75b130ec9a281021183ad8f920ac52ee1c41b7b4229cb6a&amp;source=constructor">
+                                <img src="./images/footer/mark.svg" alt="mark"> г. Мосвка, Холодильный пер. 4к1с8</a>
+                        </div>
+                        <div class="footer-contacts_mail">
+                            <a href="mailto:a.dragunov@tdaliance.ru"><img src="./images/footer/mail.svg" alt="mail">
+                                a.dragunov@tdaliance.ru</a>
+                        </div>
+                    </div>
+                    <div class="footer-contacts_social">
+                        <a href="https://vk.com/" target="_blank"><img src="./images/footer/vk.svg" alt="vk"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="./images/footer/inst.svg"
+                                alt="inst"></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-nav_contractmanufacturing">
+                        <div class="footer-nav_contractmanufacturing__title footer-title"><a
+                                href="./contract_manufaсturing.html">Контрактное производство</a></div>
+                        <div class="footer-nav_contractmanufacturing__subtitle">
+                            <ul class="footer-nav_contractmanufacturing__list">
+                                <li class="footer-nav_contractmanufacturing__item"><a href="./product_avtohim.html"
+                                        class="footer-nav_contractmanufacturing__link footer-item">Автомобильная химия</a>
+                                </li>
+                                <li class="footer-nav_contractmanufacturing__item"><a href="./404.html"
+                                        class="footer-nav_contractmanufacturing__link footer-item">Бытовая химия</a></li>
+                                <li class="footer-nav_contractmanufacturing__item"><a href="./404.html"
+                                        class="footer-nav_contractmanufacturing__link footer-item">Дезинфицирующие
+                                        средства</a></li>
+                                <li class="footer-nav_contractmanufacturing__item"><a href="./404.html"
+                                        class="footer-nav_contractmanufacturing__link footer-item">Пищевые аэрозоли</a></li>
+                                <li class="footer-nav_contractmanufacturing__item"><a href="./404.html"
+                                        class="footer-nav_contractmanufacturing__link footer-item">Косметическая
+                                        продукция</a></li>
+                                <li class="footer-nav_contractmanufacturing__item"><a href="./404.html"
+                                        class="footer-nav_contractmanufacturing__link footer-item">Краски аэрозольные</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-nav_ownbrands">
+                        <div class="footer-nav_ownbrands__title footer-title"><a href="./own_product.html">Собственные
+                                марки</a></div>
+                        <div class="footer-nav_ownbrands__subtitle">
+                            <ul class="footer-nav_ownbrands__list">
+                                <li class="footer-nav_ownbrands__item"><a href="./avtohim_ag-tech.html"
+                                        class="footer-nav_ownbrands__link footer-item">Автохимия AG-Tech</a></li>
+                                <li class="footer-nav_ownbrands__item"><a href="./404.html"
+                                        class="footer-nav_ownbrands__link footer-item">Автохимия AP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-nav_about">
+                        <div class="footer-nav_about__title footer-title"><a href="./about.html">О компании</a></div>
+                        <div class="footer-nav_about__title footer-title"><a href="./blog.html">Новости</a></div>
+                        <div class="footer-nav_about__title footer-title"><a href="./contacts.html">Контакты</a></div>
+                    </div>
+                </div>
+                <div class="footer-cooperate">
+                    <div class="footer-cooperate-text">© 2022 «Aliance Production». https://github.com/Mazko-Andrei</div>
+                    <a href="./politics.html" class="footer-cooperate_privacy">Политики конфиденциальности</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- popup -->
+    <div id="popup1" class="popup">
+        <div class="popup-body">
+            <div class="popup-content">
+                <div class="popup-close">
+                    <img class="close-popup" src="./images/popup/close.svg" alt="close">
+                </div>
+                <div class="popup-title">Есть вопросы?</div>
+                <div class="popup-subtitle">Оставьте заявку, наш менеджер свяжется с
+                    Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных
+                    случаях!</div>
+                <form class="popup-form" action="./404.html">
+                    <div class="popup-form_input cooperate-form_input">
+                        <input id="username" class="cooperate-input_name" type="text">
+                        <label for="username">Имя</label>
+                    </div>
+                    <div class="popup-form_input cooperate-form_input">
+                        <input id="usertel" class="cooperate-input_phone phone" type="tel">
+                        <label for="usertel">Номер телефона</label>
+                    </div>
+                </form>
+                <div class="popup-submit">
+                    <input id="popup-submit" class="popup-btn btn_submit" type="submit" value="Отправить заявку">
+                    <div class="popup-shield cooperate-content_shield">
+                        <img src="images/cooperate/shield.svg" alt="shield">
+                        <div class="shield_content">Обращаясь к нам вы получаете не только профессиональную
+                            работу, но и абсолютную конфиденциальность информации!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popup -->
+    <!-- popup submit-->
+    <div id="popup2" class="popup">
+        <div class="popup-body">
+            <div class="popup-content">
+                <div class="popup-close2">
+                    <img src="./images/popup/close.svg" alt="close">
+                </div>
+                <div class="popup-img">
+                    <img src="./images/popup/thanks_illu.png" alt="thanks_illu">
+                </div>
+                <div class="popup-title">Спасибо за заявку!</div>
+                <div class="popup-subtitle">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие
+                    вопросы и поможем даже в самых сложных случаях!</div>
+                <div class="popup-link">
+                    <a class="popup-btn2" href="./index.html">На главную</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popup submit-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/library/jquery.maskedinput.min.js"></script>
+    <script src="./js/mask.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/burger-menu2.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/contract-menu.js"></script>
+    <script src="./js/popup.js"></script>
+</body>
+
+</html>

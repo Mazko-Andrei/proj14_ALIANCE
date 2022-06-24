@@ -1,0 +1,27 @@
+.contacts-requisites {
+    display: grid;
+    grid-template-columns: 4fr 4fr 3fr 1fr;
+}
+
+.contacts_tel{
+    & a{
+    font-size: 48px;
+    }
+}
+
+.contacts_address, .contacts_mail, .contacts_socials{
+    display: flex;
+    align-items: center;
+
+}
+
+.contacts_address > a, .contacts_mail > a, .contacts_socials > a {
+    font-size: 22px;
+    & img {
+        width: 36px;
+        height: 36px;
+    }
+}
+.contacts-map{
+    padding-bottom: 150px;
+}

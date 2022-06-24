@@ -1,0 +1,10 @@
+.politics-section{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.politics-block{
+    & span:not(:last-child){
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+}

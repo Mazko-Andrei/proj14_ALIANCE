@@ -1,0 +1,23 @@
+.catalog{
+    background-color: var(--color-bg-cooperate);
+    margin: 150px 0;
+}
+.catalog-body{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    background-image: url(/images/ag-tech/katalog.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.catalog-content{
+    padding: 100px 0;
+}
+.catalog-content_lists{
+    display: block;
+    margin-bottom: 50px;
+    .catalog-content_list{
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+}

@@ -1,0 +1,41 @@
+
+:root{
+    --web-color: #ffffff;
+    --color-main-bg: black;
+    --color-border: rgba(235, 235, 240, 0.2);
+    --color-phone_btn: #5C8EE5;
+    --color-phone_btn-hover: #2fa3f0;
+    --color-title: #292d33;
+    --color-line: #EBEBF0;
+    --color-subtitle: #828A99;
+    --color-bg-cooperate: #F0F2F5;
+    --color-footer-hover: #044cc9;
+    --color-border-input: #E4E4EB;
+}
+
+:root{
+    --BN: 'Bebas Neue', cursive;
+    --NS: 'Noto Sans', sans-serif;
+}
+
+@import "nullstyle";
+@import "scrollbar";
+@import "main";
+@import "about";
+@import "contract_manufacturing";
+@import "product_avtohim";
+@import "own-products";
+@import "ag-tech";
+@import "blog";
+@import "blog-more";
+@import "contacts";
+@import "politics";
+@import "error";
+@import "popup";
+@import "mobile";
+
+
+
+// font-family: 'Bebas Neue', cursive;
+// font-family: 'Noto Sans', sans-serif;
+
