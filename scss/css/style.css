@@ -889,11 +889,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-slider:nth-child(odd) {
-  background-image: url(/images/blog/blog1.jpg);
+  background-image: url(./../images/blog/blog1.jpg);
 }
 
 .blog-slider:nth-child(even) {
-  background-image: url(/images/blog/blog2.png);
+  background-image: url(./../images/blog/blog2.png);
 }
 
 .blog-slider_title {
