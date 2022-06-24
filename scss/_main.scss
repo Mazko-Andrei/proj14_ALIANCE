@@ -28,22 +28,14 @@
 // /////////////////////////////////////////////////////////////////////////////MAIN-BG
 .main-bg {
     position: relative;
-    // background: url(/images/main/bg.jpg);
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position: center;
+    background: url(/images/main/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 970px;
     opacity: 0.9;
     z-index: 0;
     margin-bottom: var(--marginBottom);
-}
-.background {
-    position: absolute;
-    z-index: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
 }
 .main-bg::before{
     content: "";
