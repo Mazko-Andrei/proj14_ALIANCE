@@ -564,10 +564,10 @@
     box-shadow: 1px 1px 5px var(--color-title);
 }
 .blog-slider:nth-child(odd){
-    background-image: url(./../images/blog/blog1.jpg);
+    // background-image: url(images/blog/blog1.jpg);
 }
 .blog-slider:nth-child(even){
-    background-image: url(./../images/blog/blog2.png);
+    // background-image: url(images/blog/blog2.png);
 }
 .blog-slider_title {
     font-family: var(--NS);
