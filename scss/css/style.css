@@ -888,6 +888,14 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: 1px 1px 5px var(--color-title);
 }
 
+.blog-slider:nth-child(odd) {
+  display: block;
+}
+
+.blog-slider:nth-child(even) {
+  display: block;
+}
+
 .blog-slider_title {
   font-family: var(--NS);
   font-weight: 400;
