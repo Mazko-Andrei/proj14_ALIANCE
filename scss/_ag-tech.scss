@@ -7,7 +7,6 @@
     grid-template-columns: 6fr 6fr;
     // background-image: url(/images/ag-tech/katalog.png);
 }
-
 .catalog-content{
     padding: 100px 0;
 }
@@ -22,4 +21,21 @@
 .catalog-img {
     background-repeat: no-repeat;
     background-position: right;
+}
+.download-catalog {
+    padding: 25px 60px;
+    background-color: var(--color-phone_btn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: white;
+    transition: all .5s;
+}
+.download-catalog:hover {
+    background-color: var(--color-phone_btn-hover);
 }

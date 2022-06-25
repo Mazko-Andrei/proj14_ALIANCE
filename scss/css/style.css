@@ -1644,6 +1644,33 @@ h1, h2, h3, h4, h5, h6 {
   background-position: right;
 }
 
+.download-catalog {
+  padding: 25px 60px;
+  background-color: var(--color-phone_btn);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: white;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.download-catalog:hover {
+  background-color: var(--color-phone_btn-hover);
+}
+
 .blog-cards {
   display: -ms-grid;
   display: grid;
