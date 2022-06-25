@@ -832,4 +832,9 @@
             font-size: 14px;
         }
     }
+    .error-button {
+        & a {
+            padding: 25px 50px;
+        }
+    }
 }

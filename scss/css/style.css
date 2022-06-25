@@ -3073,5 +3073,8 @@ h1, h2, h3, h4, h5, h6 {
   .error_body p {
     font-size: 14px;
   }
+  .error-button a {
+    padding: 25px 50px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
