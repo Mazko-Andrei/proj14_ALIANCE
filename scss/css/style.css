@@ -1616,8 +1616,6 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   -ms-grid-columns: 6fr 6fr;
       grid-template-columns: 6fr 6fr;
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
 .catalog-content {
@@ -1634,6 +1632,11 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   -ms-grid-columns: (3fr)[2];
       grid-template-columns: repeat(2, 3fr);
+}
+
+.catalog-img {
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .blog-cards {
@@ -2926,7 +2929,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   .catalog-img {
     display: none;
-    background-image: url(/images/ag-tech/katalog.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;

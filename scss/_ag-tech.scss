@@ -6,8 +6,6 @@
     display: grid;
     grid-template-columns: 6fr 6fr;
     // background-image: url(/images/ag-tech/katalog.png);
-    background-repeat: no-repeat;
-    background-position: right;
 }
 
 .catalog-content{
@@ -20,4 +18,8 @@
         display: grid;
         grid-template-columns: repeat(2, 3fr);
     }
+}
+.catalog-img {
+    background-repeat: no-repeat;
+    background-position: right;
 }
