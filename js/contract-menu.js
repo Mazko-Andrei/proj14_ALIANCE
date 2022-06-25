@@ -15,3 +15,21 @@ window.addEventListener("click", function(){
 menu.addEventListener('click', function(event){
     event.stopImmediatePropagation();
 })
+
+
+
+
+const burgerKing = document.querySelectorAll(".burger_king");
+
+burgerKing.forEach(function(item){
+    item.addEventListener("mouseover", function () {
+        this.style = `
+        background-image: url(images/aerosolproducts/Burger_King_logo_hover.png)
+        `;
+    });
+    item.addEventListener("mouseout", function () {
+        this.style = `
+        background-image: url(images/aerosolproducts/Burger_King_logo.png)
+        `;
+    });
+});

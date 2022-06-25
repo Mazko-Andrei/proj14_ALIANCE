@@ -833,16 +833,11 @@ h1, h2, h3, h4, h5, h6 {
 .aerosolproducts-products a {
   display: block;
   height: 160px;
-  background-image: url(/images/aerosolproducts/Burger_King_logo.png);
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid var(--color-border);
   -webkit-transition: all .5s;
   transition: all .5s;
-}
-
-.aerosolproducts-products a:hover {
-  background-image: url(/images/aerosolproducts/Burger_King_logo_hover.png);
 }
 
 .main-blog {
