@@ -182,8 +182,12 @@
     padding: 25px 60px;
     width: 313px;
 }
+.slide-main_bg {
+    width: 1400px;
+}
 .main-bg__cards {
     display: flex;
+    min-width: 100%;
 }
 .main-bg__card {
     border: 1px solid var(--color-border);

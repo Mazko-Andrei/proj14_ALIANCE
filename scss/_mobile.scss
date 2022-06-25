@@ -207,22 +207,6 @@
             display: flex;
             margin-top: 30px;
         }
-    }
-    @media (max-width:1350px) {
-        .main-bg__header{
-            margin-bottom: 0px;
-        }
-        .main-bg__body{
-            height: 850px;
-            margin-top: 50px;
-        }
-        .main-bg__cards{
-            width: 1400px;
-        }
-        .main-bg__card{
-            flex: 0 0 20%;
-            
-        }
         .main-bg-arrow {
             display: flex;
             justify-content:center;
@@ -243,6 +227,22 @@
                 opacity: 0.5;
                 transform: scale(0.95,0.95);
             }
+        }
+    }
+    @media (max-width:1350px) {
+        .main-bg__header{
+            margin-bottom: 0px;
+        }
+        .main-bg__body{
+            height: 850px;
+            margin-top: 50px;
+        }
+        .main-bg__cards{
+            width: 1400px;
+        }
+        .main-bg__card{
+            flex: 0 0 20%;
+            
         }
         .main-tradeMarks {
             margin-bottom: 50px;

@@ -9,22 +9,24 @@ new Swiper('.slide-main_bg', {
         nextEl: '.main-bg-arrow_right',
         prevEl: '.main-bg-arrow_left'
     },
-
     breakpoints: {
         320: {
-            slidesPerView: 1,
+            slidesPerView: 2.8,
         },
         425: {
-            slidesPerView: 1.4,
+            slidesPerView: 2.9,
         },
-        600: {
-            slidesPerView: 2,
+        768: {
+            slidesPerView: 3.4,
         },
-        860: {
-            slidesPerView: 3,
+        1024: {
+            slidesPerView: 3.8,
         },
-        1250: {
-            slidesPerView: 4,
+        1240: {
+            slidesPerView: 4.4,
+        },
+        1430: {
+            slidesPerView: 5,
         }
     },
 });
