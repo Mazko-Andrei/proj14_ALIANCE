@@ -700,9 +700,21 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 20px;
 }
 
+.aerosol-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .aerosol-img img {
-  width: 100%;
+  position: absolute;
   height: 100%;
+}
+.aerosol-img img:nth-child(1) {
+  left: 80px;
+}
+.aerosol-img img:nth-child(2) {
+  right: 80px;
 }
 
 .main-blog {
