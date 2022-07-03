@@ -114,7 +114,6 @@
         width: 24px;
         height: 24px;
     }
-   
 }
 .bg-header__phone_content {
     font-weight: 600;
@@ -136,14 +135,13 @@
     line-height: 1.6;
     color: var(--web-color);
     transition: all 0.5s;
-   
 }
 .bg-header__phone_btn:hover{
     color: var(--web-color);
     background-color: var(--color-phone_btn-hover);
 }
 .bg-header__phone_btn:active{
- transform: scale(0.98, 0.98);
+    transform: scale(0.98, 0.98);
 }
 .main-bg__body{
     height: 735px;

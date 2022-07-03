@@ -3,6 +3,7 @@ const navButton = document.querySelector("#nav-icon1");
 const mobileNav = document.querySelector(".mobile-menu");
 const logo = document.querySelector(".header-logo");
 const logoMob = document.querySelector(".header-logo_mob");
+const tel = document.querySelector ('.tel-transform');
 
 
 
@@ -32,6 +33,7 @@ function toggleMobileNav(){
     navButton.classList.toggle("open");
     logo.classList.toggle("hidden");
     mobileNav.classList.toggle("mobile-nav-active");
+    tel.classList.toggle("hidden");
 }
 
 function toggleLogo() {

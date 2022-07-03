@@ -1,4 +1,4 @@
-const popupBtn = document.querySelectorAll(".bg-header__phone_btnMob, .bg-header__phone_btn, .schemeOfWork-card__link");
+const popupBtn = document.querySelectorAll(".bg-header__phone_btnMob, .bg-header__phone_btn, .schemeOfWork-card__link, .tel-transform");
 const submitBtn = document.querySelector(".btn_submit");
 const popup1 = document.querySelector("#popup1");
 const popup2 = document.querySelector("#popup2");

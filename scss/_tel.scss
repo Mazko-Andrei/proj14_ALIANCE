@@ -1,0 +1,66 @@
+.tel-transform {
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--color-phone_btn);
+    transform: rotate(240deg);
+    & svg {
+        position: relative;
+        z-index: 8;
+        width: 50px;
+        height: 50px;
+        animation: rotate 2s infinite linear;
+        transition: all 1s;
+        & path {
+            fill: white;
+        }
+    }
+    @keyframes rotate {
+        0% { transform: rotate(0);}
+        50% {transform: rotate(15deg);}
+        100% {transform: rotate(0);}
+    } 
+}
+.tel-transform::before {
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    z-index: 7;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--color-phone_btn);
+    animation: scaleBefore 3s infinite ease-in-out;
+    transition: all 2s;
+    @keyframes scaleBefore {
+        0% { transform: scale(0,0); opacity: 1;}
+        50% {transform: scale(2,2); opacity: 0.5;}
+        100% {transform: rotate(3,3); opacity: 0.3;}
+    } 
+}
+.tel-transform::after {
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    z-index: 6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--color-phone_btn);
+    animation: scaleAfter 3s infinite ease-in-out;
+    animation-delay: 0.5s;
+    transition: all 2s;
+    @keyframes scaleAfter {
+        0% { transform: scale(0,0); opacity: 0.6;}
+        50% {transform: scale(1.5,1.5); opacity: 0.6;}
+        100% {transform: rotate(2.5,2.5); opacity: 0.3;}
+    } 
+}
